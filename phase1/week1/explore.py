@@ -2,7 +2,7 @@ import pandas as pd
 
 #import data
 df = pd.read_csv("data/2019.csv")
-"""
+
 # Basic exploration
 print(f"Shape: {df.shape}")
 print(f"\nDtypes:\n{df.dtypes}")
@@ -28,5 +28,7 @@ comparison = pd.DataFrame({
 comparison["differenza"] = comparison["top20"] - comparison["bottom20"]
 print("\nTop 20 vs Bottom 20:")
 print(comparison.round(3))
-"""
-print(f"My print test \n {(df[["Score"]].sum()).round()}")
+
+
+# Just open test print line
+#print(f"My print test \n {(df[["Score"]].sum())}")
