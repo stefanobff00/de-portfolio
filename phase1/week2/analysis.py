@@ -27,10 +27,10 @@ df[["tier", "tierId"]] = df["score"].apply(happiness_tier)
 
 
 # 4. Count how many countries in each tier
-'''
+
 print("Country per tier:")
 print(df.groupby(["tier", "tierId"])["country"].count().reset_index().sort_values("tierId"))
-'''
+
 
 # Create new Dataframe (All the arrays of the same lenght)
 
@@ -40,12 +40,9 @@ tier_info= pd.DataFrame({
     "target_gdp": [1.2, 0.8, 0.4]
 })
 
+# 5. Merge data frame (JOIN)
 df_merged = df.merge(tier_info, on= "tierId", how="left") 
 print(df_merged[["country", "score", "tier", "tierId", "description"]].head(10))
 
-'''
-# Merge con il DataFrame principale
-df_merged = df.merge(tier_info, on="tier", how="left")
-print(df_merged[["country", "score", "tier", "description"]].head(10))
 
-'''
+
