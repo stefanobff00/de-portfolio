@@ -6,9 +6,11 @@ Stack: Python · SQL · dbt · Airflow · Azure
 ## Phase 1 — Python & Pandas
 - **Week 1**: CSV exploration, correlation analysis, group comparison (World Happiness Dataset)
 - **Week 2**: groupby, apply, merge, custom functions
+- **Week 3**: REST API requests, schedulers, log
 
 ## Phase 2 — SQL Advanced + dbt
-- 🔄 Coming soon
+- **Week 4**: DuckDB, Window Function, query optimization (index)
+
 
 ## Phase 3 — Pipeline & Orchestration
 - 🔄 Coming soon
