@@ -212,3 +212,5 @@ plan2 = conn.execute("""
 """).df()
 
 print(plan2["explain_value"].iloc[0])
+
+#dataset too small to notice improvements using INDEX (only 150 records approx.)

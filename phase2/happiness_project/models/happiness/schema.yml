@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: top_countries
+    columns:
+      - name: country
+        tests:
+          - not_null
+          - unique
+      - name: happiness_score
+        tests:
+          - not_null
+
+  - name: countries_tiers
+    columns:
+      - name: tier
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Top", "High", "Mid"]
