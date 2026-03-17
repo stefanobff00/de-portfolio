@@ -10,6 +10,7 @@ Stack: Python · SQL · dbt · Airflow · Azure
 
 ## Phase 2 — SQL Advanced + dbt
 - **Week 4**: DuckDB, Window Function, query optimization (index)
+- **Week 5**: dbt project, seeds, models, tests
 
 
 ## Phase 3 — Pipeline & Orchestration
