@@ -12,6 +12,7 @@ Stack: Python · SQL · dbt · Airflow · Azure
 - **Week 4**: DuckDB, Window Function, query optimization (index)
 - **Week 5**: dbt project, seeds, models, tests
 - **Week 6**: dbt docs, lineage graph
+- **Week 7**: end-to-end pipeline Python + dbt
 
 ## Phase 3 — Pipeline & Orchestration
 - 🔄 Coming soon
