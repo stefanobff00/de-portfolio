@@ -15,4 +15,4 @@ Stack: Python · SQL · dbt · Airflow · Azure
 - **Week 7**: end-to-end pipeline Python + dbt
 
 ## Phase 3 — Pipeline & Orchestration
-- 🔄 Coming soon
+- **Week 7**: Airflow DAG pipeline
